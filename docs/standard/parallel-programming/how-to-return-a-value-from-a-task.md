@@ -22,7 +22,7 @@ ms.locfileid: "73141669"
  [!code-csharp[TPL#10](../../../samples/snippets/csharp/VS_Snippets_Misc/tpl/cs/returnavalue10.cs#10)]
  [!code-vb[TPL#10](../../../samples/snippets/visualbasic/VS_Snippets_Misc/tpl/vb/10_returnavalue.vb#10)]  
   
- <xref:System.Threading.Tasks.Task%601.Result%2A> 属性将阻止调用线程，直到任务完成。  
+ <xref:System.Threading.Tasks.Task%601.Result%2A> 属性将阻塞调用线程，直到任务完成。  
   
  若要了解如何将一个 <xref:System.Threading.Tasks.Task%601?displayProperty=nameWithType> 的结果传递到延续任务，请参阅[使用延续任务链接任务](../../../docs/standard/parallel-programming/chaining-tasks-by-using-continuation-tasks.md)。  
   
